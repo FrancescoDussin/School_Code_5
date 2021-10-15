@@ -1,0 +1,151 @@
+a {
+    color: red;
+}
+
+button {
+    border-radius: 30px;
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+body {
+    text-align: center;
+    margin: 7rem auto;
+    background: #f8afa6;
+}
+
+img {
+    max-width: 800px;
+}
+
+.sidemenusandu {
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.closesidemenu {
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+
+#sandulord {
+    background: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    color: rgb(255, 255, 255);
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.btn {
+    -webkit-appearance: none;
+    border: 0;
+    margin: 5px;
+    outline: 0;
+
+    position: relative;
+    background: linear-gradient(#FF1493, #ADFF2F, #FF69B4, #F0FFF0);
+     background-size: 200% 200%;
+     animation: gradientBG 3.5s ease infinite;
+    padding: 1.5rem 10rem;
+    color: black;
+    text-transform:uppercase;
+    border-radius: 100px;
+    font-size: 1.3rem;
+    transition: 1.3s;
+}
+
+@keyframes gradientBG {
+    0% {
+         background-position: 0% 20%;
+     }
+    20% {
+        background-position: 20% 40%;
+    }
+    40% {
+        background-position: 40% 60%;
+    }
+    60% {
+        background-position: 60% 80%;
+    }
+    100% {
+         background-position: 0% 50%;
+    }
+}
+
+.css-selector {
+    background: linear-gradient(266deg, #e01884, #4ad17c);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 0s ease infinite;
+    -moz-animation: AnimationName 0s ease infinite;
+    -o-animation: AnimationName 0s ease infinite;
+    animation: AnimationName 0s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:4% 0%}
+    50%{background-position:97% 100%}
+    100%{background-position:4% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:4% 0%}
+    50%{background-position:97% 100%}
+    100%{background-position:4% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:4% 0%}
+    50%{background-position:97% 100%}
+    100%{background-position:4% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:4% 0%}
+    50%{background-position:97% 100%}
+    100%{background-position:4% 0%}
+}
+
+.massiveshred {
+    text-align: left;
+}
